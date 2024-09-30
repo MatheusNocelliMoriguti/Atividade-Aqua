@@ -133,6 +133,91 @@ body{
     font-size: 12px;
 }
 
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow', sans-serif;
+    background-color: black;
+    background-image: url("../assets/imgs/bg-jelly-fish-para_outras_pags.png");
+}
+
+:root{
+    --tamanho-header: 80px;
+    --tamanho-banner: calc(100vh - var(--tamanho-header) - var(--tamanho-footer) - 2px);
+    --tamanho-login: calc(100vh - var(--tamanho-header) - var(--tamanho-footer) - 2px);
+    --tamanho-footer: 65px;
+
+}
+
+.header{
+    background-color: black;
+}
+
+.container h2{
+    color: #d27293;
+    justify-content: center;
+    display: flex;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.container .card{
+    justify-content: center;
+    background-color: #e5e5e5;
+    border-radius: 10px;
+    padding: 20px;
+    width: 700px;
+    margin-top: 10px ;
+    margin-bottom: 10px;
+    
+}
+
+span{
+    color: #d27293;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 700;
+}
+
+.formulario{
+ padding: 5%;
+ 
+}
+
+.campo{
+    padding: 2%;
+}
+
+
+input{
+ border-radius: 5px;
+ border:2px solid #32b9cd;
+ font-family: 'Barlow', sans-serif;
+ width: 90%;
+ text-align: center;
+ padding: 1%;
+}
+
+.botao{
+    color: white;
+    padding: 3px;
+    border-radius: 5px;
+    background-color: #cd3268;
+    margin-top: 3%;
+    margin-left: 40%;
+    width: 100px;
+    height: 40px;
+    font-weight: 700;
+    font-family: 'Barlow', sans-serif;
+    cursor: pointer;
+    border: none;
+    font-size: 1rem;
+    
+}
+
 
 
 
