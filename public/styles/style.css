@@ -11,7 +11,7 @@ body{
 
 :root{
     --tamanho-header: 80px;
-    --tamanho-banner: calc(100vh - var(--tamanho-header) - var(--tamanho-footer) - 2px);
+    --tamanho-banner: calc(55vh - var(--tamanho-header) - var(--tamanho-footer) - 2px);
     --tamanho-login: calc(100vh - var(--tamanho-header) - var(--tamanho-footer) - 2px);
     --tamanho-footer: 65px;
 
@@ -39,7 +39,7 @@ body{
 
 .header a {
     text-decoration: none;
-    color: #e3b062;
+    color: #efedeb;
 
 }
 
@@ -60,24 +60,26 @@ body{
 .titulo{
     color: #32b9cd;
     width: fit-content;
-    font-weight: 800;
+    font-weight: 300;
 }
 
 .banner{
     height: var(--tamanho-banner);
-    color: white;
+    color: rgb(255, 254, 254);
     background-image:  url('../assets/imgs/bg-jelly-fish-para-home.png');
     background-size: cover;
+    
+    
 }
 
 .banner .container{
     justify-content: center;
     align-items: center;
-    height: 100%;
+    height: 30%;
 }
 
 .banner .container p {
-    width: 50%;
+    width: 70%;
     margin: 0;
     padding: 0;
     font-size: 36px;
@@ -98,19 +100,22 @@ body{
 .social .container .boxes{
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 60%;
     padding: 30px 0;
+    flex-direction: column;
 }
 
 .box{
     display: flex;
-    flex-direction: column;
+    flex-direction: row-reverse;
     align-items: center;
 
 }
 
 .box img {
-    width: 170px;
+    
+    width: 130px;
+    
 }
 
 /*  footer */
@@ -133,6 +138,7 @@ body{
     font-size: 12px;
 }
 
+
 body{
     margin: 0;
     padding: 0;
@@ -141,16 +147,10 @@ body{
     background-image: url("../assets/imgs/bg-jelly-fish-para_outras_pags.png");
 }
 
-:root{
-    --tamanho-header: 80px;
-    --tamanho-banner: calc(100vh - var(--tamanho-header) - var(--tamanho-footer) - 2px);
-    --tamanho-login: calc(100vh - var(--tamanho-header) - var(--tamanho-footer) - 2px);
-    --tamanho-footer: 65px;
-
-}
 
 .header{
     background-color: black;
+    
 }
 
 .container h2{
@@ -163,6 +163,8 @@ body{
 .container{
     display: flex;
     justify-content: center;
+    padding: 80px;
+    
 }
 
 .container .card{
@@ -177,9 +179,9 @@ body{
 }
 
 span{
-    color: #d27293;
+    color: #faf5f7;
     font-family: 'Barlow', sans-serif;
-    font-weight: 700;
+    
 }
 
 .formulario{
@@ -217,6 +219,16 @@ input{
     font-size: 1rem;
     
 }
+
+.img_social{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+
+
+
 
 
 
